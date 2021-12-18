@@ -54,6 +54,8 @@
 }
 .nav-link:hover {
   color: #ce0393 !important;
+  /* border-bottom: 1px solid #ce0393; */
+  text-decoration: underline;
 }
 .nav-link .fab,
 .nav-link .fas {
@@ -96,7 +98,11 @@
   height: 20vh;
   overflow: hidden;
 }
-
+.img-cate {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+}
 .img-text {
   width: 100%;
   position: absolute;
