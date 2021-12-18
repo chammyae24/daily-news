@@ -178,6 +178,11 @@
   color: #ce0393;
   background: #fff;
 }
+.form input[type="email"]:focus {
+  border-color: #ce0393;
+  box-shadow: 0 1px 1px #00000013 inset, 0 0 8px #ce0393;
+  outline: 0 none;
+}
 
 footer {
   background: #1a1a1a;
@@ -201,11 +206,6 @@ footer p {
   }
   .main {
     padding-top: 10rem;
-  }
-  .img-cover-2,
-  .img-cover-3,
-  .img-cover-4 {
-    display: none;
   }
 
   .pop-news {
@@ -239,5 +239,8 @@ footer p {
   }
   .main {
     padding-top: 8rem;
+  }
+  .img-cover-main {
+    display: none;
   }
 }
