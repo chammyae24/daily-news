@@ -196,6 +196,9 @@ footer {
 footer p {
   font-size: 12px;
 }
+.footer {
+  display: flex;
+}
 
 @media only screen and (max-width: 1200px) {
   .local-news {
@@ -248,5 +251,8 @@ footer p {
   }
   .img-cover-main {
     display: none;
+  }
+  .footer {
+    display: block;
   }
 }
