@@ -207,6 +207,9 @@ footer p {
   .l-news-text {
     position: static;
   }
+  .span {
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -220,7 +223,9 @@ footer p {
   .pop-news {
     display: none;
   }
-
+  .span {
+    display: flex;
+  }
   .mobile-carousel {
     display: block;
   }
