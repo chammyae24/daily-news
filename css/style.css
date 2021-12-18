@@ -54,7 +54,6 @@
 }
 .nav-link:hover {
   color: #ce0393 !important;
-  /* border-bottom: 1px solid #ce0393; */
   text-decoration: underline;
 }
 .nav-link .fab,
@@ -72,6 +71,7 @@
 
 .main {
   padding-top: 8rem;
+  overflow: hidden;
 }
 .main p {
   color: rgb(121, 121, 121);
