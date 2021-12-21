@@ -5,6 +5,15 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
+.btn-daily-news {
+  background: #ce0393;
+  color: #fff;
+  transition: all 0.35s ease-in-out;
+}
+.btn-daily-news:hover {
+  background: hsl(317, 97%, 45%);
+  color: #fff;
+}
 .header {
   background-color: #fff;
 }
